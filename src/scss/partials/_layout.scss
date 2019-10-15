@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: $color2;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
