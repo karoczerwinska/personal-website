@@ -1,3 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+import { intro } from "./intro";
 
+document.addEventListener('DOMContentLoaded', function() {
+    intro();
 });
