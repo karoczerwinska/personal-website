@@ -52,7 +52,7 @@ class TextTyping {
     }
   }
 
-  const phrases = [,
+  const phrases = [
     'code.',
     'fix bugs.',
     'create cool things.',
