@@ -4,12 +4,10 @@
     padding-right: 15px;
     margin: 0 auto;
 }
-
 .section-main {
     height: 100vh;
     padding: 50px 0;
 }
-
 .btn {
     text-align: center;
     text-decoration: none;
@@ -31,15 +29,30 @@
     background: $color2;
 }
 .section-header {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: flex-end;
+    
+    .section-header-title {
+        font-size: 120px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        position: relative;
+        opacity: .3;
+        color: $color-section-header;
+    }
 }
-.section-header-title {
-	margin-top: 10px;
-	text-align: center;
-	font-size: 40px;
-	text-transform: uppercase;
-	position: relative;
-    padding-bottom: 20px;
-    font-weight: 500;
-    color: #fff;
+.section-content {
+    margin: 0 auto;
+    text-align: center;
+
+    .section-content-title {
+        color: $color1;
+        letter-spacing: .33em;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
 }
