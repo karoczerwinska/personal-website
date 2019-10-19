@@ -5,7 +5,6 @@
     margin: 0 auto;
 }
 .section-main {
-    height: 100vh;
     padding: 50px 0;
 }
 .btn {
@@ -30,7 +29,7 @@
 }
 .section-header {
     margin-bottom: 20px;
-    margin-right: 10vw;
+    margin-right: 5vw;
     display: flex;
     justify-content: flex-end;
     
@@ -54,5 +53,14 @@
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-weight: 300;
+        margin-bottom: 50px;
     }
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.row .col {
+    flex-grow: 1;
+    padding: 0 10px;
 }

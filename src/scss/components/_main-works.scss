@@ -1,0 +1,28 @@
+.block {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        transition: all 1s;
+        cursor: pointer;
+    }
+    &:hover img {
+        transform: scale(1.5) rotate(10deg);
+    }
+}
+.black-layer {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0,0,0,.3);
+    pointer-events: none;
+    transition: all 1s;
+}
+.block:hover .black-layer {
+    transform: translateY(-400px);
+}
+.grayscale {
+    filter: grayscale(80%);
+}

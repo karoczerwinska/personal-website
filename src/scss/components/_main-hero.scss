@@ -53,17 +53,21 @@
     }
 }
 .welcome-message {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
     color: $color1;
-    margin-left: 150px;
+    margin-left: 180px;
+    letter-spacing: .33em;
+    line-height: 20px;
 
     .welcome {
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 18px;
+        text-transform: uppercase;
     }
     .phrase {
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 50px;
+        letter-spacing: .45em;
     }
 }
 .typing {
@@ -74,17 +78,20 @@
     top: 50%;
     right: 3.5%;
     transform: translateY((-50%));
-}
-.social-media ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.social-media ul li {
-    margin: 20px 0;
-    cursor: pointer;
-}
-.social-media img {
-    height: 40px;
-    width: 40px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin: 20px 0;
+            cursor: pointer;
+
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
 }
